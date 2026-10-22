@@ -1,0 +1,2 @@
+# Banner assets and their generator are not the point of this repo; keep them out of language stats.
+assets/** linguist-vendored
