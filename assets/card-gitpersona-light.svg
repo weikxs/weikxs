@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="210" viewBox="0 0 400 210" role="img" aria-label="GitPersona: Git identity that follows your folder">
+  <defs><style>
+      .name { fill: #0a8a4a; font: 700 30px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .en { fill: #1f6f8b; font: 500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .zh { fill: #1f6f8b; font: 500 17px system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; opacity: .8; }
+      .go { fill: #0a8a4a; font: 700 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+             animation: nudge 1.6s ease-in-out infinite; }
+      .px { animation: twinkle 4s ease-in-out infinite; }
+      .edge { fill: none; stroke: #0a8a4a; stroke-width: 2; stroke-dasharray: 10 6; opacity: .55;
+               animation: march 12s linear infinite; }
+      @keyframes twinkle { 0%, 80%, 100% { opacity: 1; } 88% { opacity: .35; } }
+      @keyframes nudge { 50% { transform: translateX(5px); } }
+      @keyframes march { to { stroke-dashoffset: -160; } }
+      @media (prefers-reduced-motion: reduce) { .px, .go, .edge { animation: none; } }
+  </style></defs>
+  <rect width="400" height="210" rx="16" fill="#f4fbf6"/>
+  <rect class="edge" x="6" y="6" width="388" height="198" rx="12"/>
+  <g>
+    <rect class="px" x="40" y="34" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.06s"/>
+    <rect class="px" x="50" y="34" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.12s"/>
+    <rect class="px" x="40" y="44" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.12s"/>
+    <rect class="px" x="50" y="44" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.18s"/>
+    <rect class="px" x="80" y="44" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.36s"/>
+    <rect class="px" x="90" y="44" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.42s"/>
+    <rect class="px" x="40" y="54" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.18s"/>
+    <rect class="px" x="80" y="54" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.42s"/>
+    <rect class="px" x="90" y="54" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.48s"/>
+    <rect class="px" x="40" y="64" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.24s"/>
+    <rect class="px" x="90" y="64" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.54s"/>
+    <rect class="px" x="40" y="74" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.30s"/>
+    <rect class="px" x="80" y="74" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.54s"/>
+    <rect class="px" x="40" y="84" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.36s"/>
+    <rect class="px" x="60" y="84" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.48s"/>
+    <rect class="px" x="70" y="84" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.54s"/>
+    <rect class="px" x="40" y="94" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.42s"/>
+    <rect class="px" x="50" y="94" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.48s"/>
+    <rect class="px" x="40" y="104" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.48s"/>
+    <rect class="px" x="50" y="104" width="8" height="8" rx="1.5" fill="#0a8a4a" style="animation-delay:0.54s"/>
+  </g>
+  <text class="name" x="130" y="80">GitPersona</text>
+  <text class="en" x="30" y="140">Git identity that follows your folder</text>
+  <text class="zh" x="30" y="172">按目录自动切换 Git 身份</text>
+  <text class="go" x="356" y="80">→</text>
+</svg>

@@ -16,9 +16,9 @@ GLYPHS = {
 MUG = ["1111100", "1222110", "1222101", "1222101", "1222110", "1222100", "0111000"]
 WORD = "WEIKXS"
 TAGLINES = [
-    "do the right thing · build the fun thing",
-    "make it work → make it right",
-    "rm -rf ./complexity",
+    "build useful things · make them fast",
+    "做有用的项目 · 写高效的工具",
+    "less friction · more flow",
     "still compiling ideas_",
 ]
 

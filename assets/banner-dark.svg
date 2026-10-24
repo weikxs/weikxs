@@ -183,8 +183,8 @@
     <rect class="steam" x="1012" y="58" width="10" height="10" rx="2" style="animation-delay:1.60s"/>
     <rect class="steam" x="1032" y="58" width="10" height="10" rx="2" style="animation-delay:2.30s"/>
   </g>
-  <text class="tag" x="600" y="270" text-anchor="middle" style="animation-duration:12.8s;animation-delay:0.9s"><tspan class="prompt">› </tspan>do the right thing · build the fun thing</text>
-  <text class="tag" x="600" y="270" text-anchor="middle" style="animation-duration:12.8s;animation-delay:4.1s"><tspan class="prompt">› </tspan>make it work → make it right</text>
-  <text class="tag" x="600" y="270" text-anchor="middle" style="animation-duration:12.8s;animation-delay:7.3s"><tspan class="prompt">› </tspan>rm -rf ./complexity</text>
+  <text class="tag" x="600" y="270" text-anchor="middle" style="animation-duration:12.8s;animation-delay:0.9s"><tspan class="prompt">› </tspan>build useful things · make them fast</text>
+  <text class="tag" x="600" y="270" text-anchor="middle" style="animation-duration:12.8s;animation-delay:4.1s"><tspan class="prompt">› </tspan>做有用的项目 · 写高效的工具</text>
+  <text class="tag" x="600" y="270" text-anchor="middle" style="animation-duration:12.8s;animation-delay:7.3s"><tspan class="prompt">› </tspan>less friction · more flow</text>
   <text class="tag" x="600" y="270" text-anchor="middle" style="animation-duration:12.8s;animation-delay:10.5s"><tspan class="prompt">› </tspan>still compiling ideas_</text>
 </svg>
