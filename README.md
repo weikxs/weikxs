@@ -14,17 +14,22 @@
   <a href="https://github.com/weikxs/gitpersona"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-gitpersona-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/card-gitpersona-light.svg" />
-    <img alt="GitPersona: Git identity that follows your folder" src="assets/card-gitpersona-dark.svg" width="32%" />
+    <img alt="GitPersona: Git identity that follows your folder" src="assets/card-gitpersona-dark.svg" width="49%" />
   </picture></a>
   <a href="https://github.com/weikxs/otpkeep"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-otpkeep-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/card-otpkeep-light.svg" />
-    <img alt="OTPKeep: 2FA codes, synced only on your LAN" src="assets/card-otpkeep-dark.svg" width="32%" />
+    <img alt="OTPKeep: 2FA codes, synced only on your LAN" src="assets/card-otpkeep-dark.svg" width="49%" />
   </picture></a>
   <a href="https://github.com/weikxs/timbrebox"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-timbrebox-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/card-timbrebox-light.svg" />
-    <img alt="TimbreBox: music from public sources, no login" src="assets/card-timbrebox-dark.svg" width="32%" />
+    <img alt="TimbreBox: music from public sources, no login" src="assets/card-timbrebox-dark.svg" width="49%" />
+  </picture></a>
+  <a href="https://github.com/weikxs/supercy"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-supercy-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-supercy-light.svg" />
+    <img alt="Supercy: clipboard history, screenshots and pins" src="assets/card-supercy-dark.svg" width="49%" />
   </picture></a>
 </p>
 

@@ -27,7 +27,7 @@ LINES = [
     ("builds", "CLI · desktop · cross-platform apps"),
     ("believes", "local-first · no account · no telemetry"),
     ("motto", "make it useful, then make it fast"),
-    ("now", "OTPKeep · 2FA that syncs only on your LAN"),
+    ("now", "Supercy · a clipboard that stays on your devices"),
 ]
 # 1 = fur, 2 = eyes (they blink)
 CAT = ["10000000001", "11000000011", "11111111111", "11111111111", "11211111211",

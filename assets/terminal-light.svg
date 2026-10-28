@@ -114,7 +114,7 @@
   <text class="line" x="380" y="288" xml:space="preserve" style="animation-delay:1.54s"><tspan class="key">builds    </tspan><tspan class="val">CLI · desktop · cross-platform apps</tspan></text>
   <text class="line" x="380" y="320" xml:space="preserve" style="animation-delay:1.70s"><tspan class="key">believes  </tspan><tspan class="val">local-first · no account · no telemetry</tspan></text>
   <text class="line" x="380" y="352" xml:space="preserve" style="animation-delay:1.86s"><tspan class="key">motto     </tspan><tspan class="val">make it useful, then make it fast</tspan></text>
-  <text class="line" x="380" y="384" xml:space="preserve" style="animation-delay:2.02s"><tspan class="key">now       </tspan><tspan class="val">OTPKeep · 2FA that syncs only on your LAN</tspan></text>
+  <text class="line" x="380" y="384" xml:space="preserve" style="animation-delay:2.02s"><tspan class="key">now       </tspan><tspan class="val">Supercy · a clipboard that stays on your devices</tspan></text>
   <g class="line" style="animation-delay:2.18s"><rect x="380" y="416" width="34" height="20" rx="3" fill="#0a8a4a"/><rect x="420" y="416" width="34" height="20" rx="3" fill="#9a5b25"/><rect x="460" y="416" width="34" height="20" rx="3" fill="#6aa7b8"/><rect x="500" y="416" width="34" height="20" rx="3" fill="#1f6f8b"/><rect x="540" y="416" width="34" height="20" rx="3" fill="#e0216f"/><rect x="580" y="416" width="34" height="20" rx="3" fill="#1aa3c4"/></g>
   <rect class="cursor" x="380" y="452" width="13" height="22" rx="2"/>
 </svg>
