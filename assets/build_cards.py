@@ -7,9 +7,9 @@ from pathlib import Path
 
 from build_banner import THEMES
 
-WIDTH, HEIGHT = 400, 210
-CELL, PIXEL = 10, 8
-ICON_X, ICON_Y = 30, 34
+WIDTH, HEIGHT = 300, 220
+CELL, PIXEL = 8, 6.5
+ICON_X, ICON_Y = 26, 26
 
 # 8x8 pixel icons; 1 = pixel colour, 2 = accent colour.
 ICONS = {
@@ -20,13 +20,13 @@ ICONS = {
 }
 TOOLS = [
     {"slug": "gitpersona", "name": "GitPersona", "icon": "git",
-     "en": "Git identity that follows your folder", "zh": "按目录自动切换 Git 身份"},
+     "en": "Git identity per folder", "zh": "按目录切换 Git 身份"},
     {"slug": "otpkeep", "name": "OTPKeep", "icon": "key",
-     "en": "2FA codes, synced only on your LAN", "zh": "只在局域网同步的两步验证器"},
+     "en": "2FA synced on your LAN", "zh": "局域网同步的验证器"},
     {"slug": "timbrebox", "name": "TimbreBox", "icon": "note",
-     "en": "Music from public sources, no login", "zh": "无需登录的跨平台音乐播放器"},
+     "en": "Music, no login", "zh": "免登录的音乐播放器"},
     {"slug": "supercy", "name": "Supercy", "icon": "clip",
-     "en": "Clipboard, screenshots and pins", "zh": "只在自己设备间同步的剪贴板"},
+     "en": "A private clipboard", "zh": "只属于你的剪贴板"},
 ]
 
 
@@ -45,9 +45,9 @@ def icon(theme: dict, rows: list[str]) -> str:
 
 def styles(theme: dict) -> str:
     return f"""
-      .name {{ fill: {theme["pixel"]}; font: 700 30px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
-      .en {{ fill: {theme["text"]}; font: 500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
-      .zh {{ fill: {theme["text"]}; font: 500 17px system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; opacity: .8; }}
+      .name {{ fill: {theme["pixel"]}; font: 700 26px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+      .en {{ fill: {theme["text"]}; font: 500 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+      .zh {{ fill: {theme["text"]}; font: 500 16px system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; opacity: .8; }}
       .go {{ fill: {theme["pixel"]}; font: 700 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
              animation: nudge 1.6s ease-in-out infinite; }}
       .px {{ animation: twinkle 4s ease-in-out infinite; }}
@@ -68,10 +68,10 @@ def build(theme: dict, tool: dict) -> str:
   <g>
     {icon(theme, ICONS[tool["icon"]])}
   </g>
-  <text class="name" x="130" y="80">{tool["name"]}</text>
-  <text class="en" x="30" y="140">{escape(tool["en"])}</text>
-  <text class="zh" x="30" y="172">{escape(tool["zh"])}</text>
-  <text class="go" x="{WIDTH - 44}" y="80">→</text>
+  <text class="name" x="26" y="132">{tool["name"]}</text>
+  <text class="en" x="26" y="166">{escape(tool["en"])}</text>
+  <text class="zh" x="26" y="194">{escape(tool["zh"])}</text>
+  <text class="go" x="{WIDTH - 44}" y="56">→</text>
 </svg>
 '''
 
